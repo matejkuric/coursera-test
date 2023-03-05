@@ -29,6 +29,7 @@ section {
 
 
 /* Content and Title Box */
+/* I HAD to put that scroll, because it looked awful without it*/
 div {
   border: 1px solid black;
   margin: 0px 10px 20px 10px;
