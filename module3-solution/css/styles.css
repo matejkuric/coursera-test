@@ -55,9 +55,8 @@ body {
 
 /** MAIN CONTENT **/
 
-#text-tiles {
-  margin: 15px;
-
+#main-content div {
+  margin: 0;
 }
 
 #text-tiles h3 {
@@ -70,10 +69,11 @@ body {
 
 #text-tiles div {
   background-color: #f2e2cd;
+  margin-bottom: 20px;
+
 }
 
 /** END MAIN CONTENT **/
-
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
@@ -82,3 +82,4 @@ body {
     padding: 20px 0 0 10px;
   }
 }
+
