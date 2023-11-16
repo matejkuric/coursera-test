@@ -1,9 +1,13 @@
+/** BODY **/
+
 body {
   font-size: 16px;
   color: #191919;
   background-color: #efeff2;
   font-family: 'Roboto Slab', serif;
 }
+
+/** END BODY **/
 
 /** HEADER **/
 
@@ -13,7 +17,7 @@ body {
   border: 0;
 }
 
-.navbar-brand {
+.navbar-brand { /* Restaurant name */
   position:absolute;
   left:0;
   top:0;
@@ -31,23 +35,23 @@ body {
   line-height: .75;
 }
 
-.navbar-brand h1 span { /* Restaurant sub-name */
+.navbar-brand h1 span { /* Restaurant name */
   color: #000000;
 }
 
-.navbar-brand h1:hover, .navbar-brand h1:focus {
+.navbar-brand h1:hover, .navbar-brand h1:focus { /* Restaurant name */
     color: #FFE135;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover, .navbar-brand a:focus { /* Restaurant name */
     text-decoration: none;
 }
 
-.navbar-collapse {
-  background-color: #dadae3;
+.navbar-collapse { /* Menu button */
+  background-color: #dadae3; 
 }
 
-.navbar-collapse ul li:hover {
+.navbar-collapse ul li:hover { /* Menu button */
   background-color: #FFE135;
 }
 
@@ -71,16 +75,8 @@ body {
 #text-tiles div {
   background-color: #f2e2cd;
   margin-bottom: 20px;
+  border-radius: 20px;
 
 }
 
 /** END MAIN CONTENT **/
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
-  .navbar-brand {
-    padding: 20px 0 0 10px;
-  }
-}
-
